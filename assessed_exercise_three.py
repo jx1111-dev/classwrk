@@ -1,5 +1,5 @@
 winning_list = [5, 17, 14]
-guessed_list = [6, 14, 4]
+guessed_list = [6, 7, 8]
 
 
 def winning_numbers(winning_list, guessed_list):
@@ -22,7 +22,7 @@ def winning_numbers(winning_list, guessed_list):
     if (num1 and num2 and num3) == True:
         print("First")
 
-    elif (num1 and num2) or (num2 and num3) or (num1 or num3) == True:
+    elif (num1 and num2) or (num2 and num3) or (num1 and num3) == True:
         print("Second")
 
     elif num1 or num2 or num3 == True:
