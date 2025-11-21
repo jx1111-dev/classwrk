@@ -28,4 +28,3 @@ def sort_list(number_list):
                     next     
 
 sort_list(num_list)
-
