@@ -1,8 +1,7 @@
 import string
-
 def password_strength(password):
     spec_chars = ["@","$","£"]
-    upper_alpha = [string.ascii_uppercase]
+    upper_alpha = list(string.ascii_uppercase)
     
     password = list(str(password))
 
@@ -13,7 +12,7 @@ def password_strength(password):
     while flag:
 
         for i in password:
-            
+
             if i in spec_chars:
                 special_char = True
             
@@ -22,11 +21,9 @@ def password_strength(password):
         
             if (special_char and upper_char) == True:
                 flag = False
-            
-            try:
-                next
-            except:
-                flag = False
+        
+        if i == password[-1]:
+            flag = False
         
     if (len(password) < 6) or (special_char == False and upper_char == False):
 
@@ -35,12 +32,16 @@ def password_strength(password):
     elif ((6 <= len(password) <= 10) and (special_char == True and upper_char == True)):
 
         return print("Medium")
-    
-    else:
+    elif ((len(password) > 10) and (special_char == True and upper_char == True)):
 
         return print("Strong")
     
-password_strength("ffffff@A")
+    else:
+
+        return print("Weak")
+    
+
+password_strength("ffF@fffff")
 
 
             
