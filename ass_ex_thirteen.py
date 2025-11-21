@@ -11,7 +11,9 @@ def password_strength(password):
     upper_char = False
 
     while flag:
+
         for i in password:
+            
             if i in spec_chars:
                 special_char = True
             
