@@ -1,5 +1,7 @@
 def max_of_three(num1, num2, num3):
 
+    
+
     if num1 > (num2 and num3):
         return num1
 

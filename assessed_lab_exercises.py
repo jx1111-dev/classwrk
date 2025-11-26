@@ -1,12 +1,12 @@
-def calculator():
+def calculator(num1, num2, operator):
     
     operator_list = ["+","-","*","/","<","<=",">",">="]
 
-    #gets the inputs
+    #validates the inputs. if they are floats, the program continues. 
+    #if they werent, it would throw an exception. 
     try:
-        num1 = int(input("Enter the first number: "))
-        num2 = int(input("Enter the second number: "))
-        operator = input("Enter the operator: ")
+        num1 = float(num1)
+        num2 = float(num2)
 
         #checks if the operator is one of the valid operators
         if operator not in operator_list:
