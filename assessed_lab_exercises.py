@@ -47,5 +47,3 @@ def calculator():
             result = num1>=num2
 
         return print(f"Your result is: {result}")
-
-calculator()
