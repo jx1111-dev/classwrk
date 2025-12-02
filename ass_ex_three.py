@@ -1,9 +1,6 @@
-winning_list = [5, 17, 14]
-guessed_list = [6, 7, 8]
-
-
 def winning_numbers(winning_list, guessed_list):
 
+    #these if statements checks to see if the number is in the winning list
     if guessed_list[0] in winning_list:
         num1 = True
     else:
@@ -31,4 +28,4 @@ def winning_numbers(winning_list, guessed_list):
     else:
         print("No")
 
-winning_numbers(guessed_list, winning_list)
+winning_numbers(["a", "b", "c"], ["d", "e", "f"])
