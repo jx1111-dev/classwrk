@@ -16,6 +16,7 @@ def winning_numbers(winning_list, guessed_list):
     else:
         num3 = False
 
+    #then, this if statement determined the prize based on how many guessed numbers are in the winning list
     if (num1 and num2 and num3) == True:
         print("First")
 
@@ -27,5 +28,3 @@ def winning_numbers(winning_list, guessed_list):
 
     else:
         print("No")
-
-winning_numbers(["a", "b", "c"], ["d", "e", "f"])
