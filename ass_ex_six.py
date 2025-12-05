@@ -25,5 +25,3 @@ def calculate_weekly_pay():
             total_pay = (35*pay) + ((hours_done - 35) * overtime)
 
     print(f"Your total pay is: {total_pay}")
-
-calculate_weekly_pay()
