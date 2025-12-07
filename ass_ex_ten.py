@@ -10,6 +10,7 @@ def sort_list(number_list):
     while repeat:
         repeat = False
 
+        #because lists start from zero, i have to subtract 1 from the length of the list
         for i in range(n-1):
             
             #if this if statement fails, it means the list is sorted,
@@ -21,5 +22,4 @@ def sort_list(number_list):
                 repeat = True
             
     
-    print(number_list)
-    return number_list
+    return print(number_list)
