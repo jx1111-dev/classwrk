@@ -22,6 +22,4 @@ def is_palindrome(text):
     else:
         #if not, it's not a palindrome
         return False, print("It is not a palindrome")
-    
-is_palindrome("M3d2m")
         

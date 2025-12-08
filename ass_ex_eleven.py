@@ -23,5 +23,3 @@ def sum_of_digits(num):
             x+= int(i)
         
     return print(x)
-
-sum_of_digits("24a3")

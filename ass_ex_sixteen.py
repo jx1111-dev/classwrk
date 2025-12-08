@@ -33,4 +33,3 @@ def cipher_text(input_text, key):
         
         return print(input_text)
     
-cipher_text("Hdfk#huuru#|rx#pdnh#lq#surjudpplqj#lv#dq#rssruwxqlw|#wr#ehfrph#d#ehwwhu#ghyhorshu$", 3)

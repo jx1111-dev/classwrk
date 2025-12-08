@@ -56,8 +56,6 @@ def password_strength(password):
         return print("Weak")
     
 
-password_strength("111111111A$")
-
 
             
             
