@@ -1,7 +1,7 @@
 #ex 1
 def calculator(num1, num2, operator):
     
-    operator_list = ["+","-","*","/","<","<=",">",">="]
+    operator_list = ["+","-","*","/","<","<=",">",">=","%"]
 
     #validates the inputs. if they are floats, the program continues. 
     #if they werent, it would throw an exception. 
