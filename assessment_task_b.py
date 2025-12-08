@@ -31,6 +31,7 @@ def input_money():
     print()
 
 def purchase_items():
+    print("------------------------------------------------")
     for key, value in inventory.items():
         print(f'{key}: {value['Name']} \tPrice: {value['Price']} \tStock: {value['Stock']}')
     print()
