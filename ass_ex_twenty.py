@@ -41,3 +41,27 @@ def closest_pair_under_budget(prices, budget):
     #which gets us the closest pair
     return print(closest)
 
+
+if __name__ == "__main__":
+    # original three items plus five more added
+    prices = [
+        ("tv", 300),
+        ("mobile phone", 800),
+        ("laptop", 600),
+        ("headphones", 150),
+        ("keyboard", 80),
+        ("monitor", 200),
+        ("camera", 450),
+        ("speakers", 120),
+    ]
+
+    # Example runs
+    print("Budget 900 ->", end=" ")
+    closest_pair_under_budget(prices, 900)
+
+    print("Budget 500 ->", end=" ")
+    closest_pair_under_budget(prices, 500)
+
+    print("Budget 1100 ->", end=" ")
+    closest_pair_under_budget(prices, 1100)
+
