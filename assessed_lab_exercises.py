@@ -140,7 +140,8 @@ def sum_of_evens():
 def calculate_average(num_list):
 
     try:
-
+        
+        #input validation. checks if each item in the list is a float
         for i in num_list:
             i = float(i)
 
